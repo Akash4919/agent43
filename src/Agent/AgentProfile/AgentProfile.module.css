@@ -1,0 +1,24 @@
+.scroll {
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+.scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .saveButton:hover {
+    background-image: linear-gradient(#26C6DA,#337AB7);
+    color: white ;
+}
+.uploadButton{
+  background-image: linear-gradient(#26C6DA,#337AB7);
+    color: white ;
+}
+.viewButton{
+  background-image: linear-gradient(#26C6DA,#337AB7);
+    color: white ;
+}
+.deleteButton{
+  border: 1px solid rgb(75, 74, 74);
+  color: rgb(87, 84, 84);
+}

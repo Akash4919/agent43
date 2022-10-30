@@ -1,0 +1,4 @@
+.saveButton:hover {
+    background-image: linear-gradient(#26CADA,#337AB7);
+    color: white;
+}

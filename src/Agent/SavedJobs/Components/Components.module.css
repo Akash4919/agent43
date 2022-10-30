@@ -1,0 +1,91 @@
+
+.JobCard{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px; 
+    border: 2px solid lightgray;
+    margin-bottom: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+.JobCard:hover{
+    border: double 2px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(white, white), radial-gradient( at top left, #26CADA,#337AB7);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.innerBox{
+    margin:20px;
+}
+.DesBox{
+    background-color:white
+
+}
+.desHeader{
+    min-height:100px;
+    position: fixed;
+    padding: 30px 0;
+    background-color: white;
+}
+.applyIcon:hover {
+    color: white;
+    background-image: linear-gradient(#26CADA,#337AB7);
+}
+.iconDesign{
+    margin-right: 0.5;
+    font-size: 28px;
+    vertical-align: sub;
+    color: #26CADA;
+    padding: 0px 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.innerJobCard{
+    display: flex;
+    justify-content: space-between;
+}
+.CandidateOuterBox{
+    width:100%;
+    height:90px;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    margin-left: -30px;
+}
+.candidateInnerBox{
+    display: flex;
+    flex-direction: column;
+
+}
+.AvatarBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+.keyskillBox{
+    display:flex;
+    margin-top: 20px;
+}
+.modalStyle{
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+}
+.modalStyle::-webkit-scrollbar {
+    display: none;
+  }
+.upperProfileBox{
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    display:flex;
+    flex-direction: column;
+}
+.expBox{
+    margin: 10px 0;
+}

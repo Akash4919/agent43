@@ -1,0 +1,87 @@
+.outerBox{
+   display: flex;
+   flex-direction: row;
+   box-sizing: border-box;
+}
+.saveButton:hover {
+  background-image: linear-gradient(#26CADA,#337AB7);
+  color: white;    
+
+}
+.saveButton{ border-image-source: linear-gradient(to top, #26CADA, #337AB7);
+  border-image-slice: 1;}
+.leftBox{
+width: 50%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(235, 235, 235);
+}
+
+.forgotPassword{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 90px;
+  color: blue;
+  font-weight: bold;
+}
+
+.logo{
+  font-size: 40px;
+  font-weight: bolder;
+  background: linear-gradient(#26C6DA, #337AB7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.taglineBox{
+    width: 80%;
+    height: 30%;
+    background-color: rgb(235, 235, 235);
+}
+
+.rightBox{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+}
+
+.signInBox{
+   width: 500px;
+   height: 500px;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+  .leftBox{
+    display: none;
+  }
+  .rightBox {
+    width: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .signInBox{
+    width: 360px;
+  }
+  .forgotPassword{
+    margin-right: 50px;
+  }
+  
+}

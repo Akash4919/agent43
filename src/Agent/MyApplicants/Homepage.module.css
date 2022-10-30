@@ -1,0 +1,68 @@
+.Header{
+    height:65px;
+    background-color: aqua;
+}
+.Searchbox{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.MainBox{
+    height:calc(100vh - 135px);
+    display: flex;
+}
+.LeftBox{
+    width: 32%;
+    padding: 10px;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+}
+.LeftBox::-webkit-scrollbar {
+    display: none;
+  }
+.RightBox{
+    width: 70%;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+    padding: 10px;
+   
+}
+.RightBox::-webkit-scrollbar {
+    display: none;
+    background-color: blueviolet;
+  }
+.overlapSearchBox{
+    display:none
+}
+.overlapLeftBox{
+    padding:10px;
+    display:none
+}
+.overlapRightBox{
+    width:100%;
+}
+  @media screen and (max-width: 700px) {
+    .Searchbox {
+        height: 140px;    }
+    .LeftBox{
+        width: 100%;
+    }
+    .RightBox{
+        display: none;
+    }
+  }
+.scroll {
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+.scroll::-webkit-scrollbar {
+    display: none;
+  }

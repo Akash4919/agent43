@@ -1,0 +1,57 @@
+.mainOuterBox {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    display: flex;
+    z-index: 200;
+    top:0;
+    box-shadow: 1px 1px 1.5px 1.5px rgba(12,12,12,0.2);
+}
+
+.backBox {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    display: flex;
+    z-index: 199;
+}
+.applyIcon:hover {
+    color: white;
+    background-image: linear-gradient(#26CADA,#337AB7);
+}
+.logoBox {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabBox {
+    width : 75%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.rightBox {
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .rightBox {
+        width: 20%;
+    }
+    .tabBox {
+        width : 70%;
+    }
+    .logoBox {
+        width: 15%;
+    }
+  }

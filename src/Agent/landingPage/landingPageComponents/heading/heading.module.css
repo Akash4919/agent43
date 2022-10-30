@@ -1,0 +1,126 @@
+.outerBox {
+    height:80vh;
+    width: 100%;
+    display: flex;
+}
+
+.leftBox{
+    width: 50%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    /* background-image: linear-gradient(rgba(38,198,218,0.1), rgba(51,122,183,0.1)); */
+    padding-left: 40px;
+}
+
+.siteTitle{
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+    line-height: 55px;
+    margin-top: 80px;
+}
+
+.TextColor{
+    background: linear-gradient(#26C6DA, #337AB7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rightBox{
+    width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+.keywordHead{
+    display:flex;
+    flex-direction: row;
+    font-size: large;
+    font-weight: bold;
+}
+
+.keyword{
+    display:flex;
+    flex-direction: row;
+    font-size: large;
+    font-weight: medium;
+    color: rgb(95, 95, 241);
+}
+
+.searchBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10PX;
+    width: 85%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.titleBox{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+   width: 40%;
+   height: 45px;
+   padding-left: 5px;
+  
+}
+
+.locationBox{
+  width: 40%;
+  height: 45px;
+}
+
+.buttonBox{
+display: flex;
+ align-items: center;
+ justify-content: flex-end;
+  width: 20%;
+  height: 45px;
+ margin-right: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    .leftBox {
+      width: 100%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 420px) {
+ .leftBox {
+      width: 100%;
+    }
+    .leftBox{
+       padding: 10px;
+    }
+    .searchBox{
+        width: 100%;   
+    }
+
+    .siteTitle{
+        font-size: 40px;
+        font-weight: bold;
+        color:rgb(0, 0, 0);
+        line-height: 45px;
+        margin-top: 30px;
+    }
+
+    .outerBox{
+        height: 420px;
+    }
+
+    .leftBox{
+        height: 400px;
+    }
+    
+  }
+
+

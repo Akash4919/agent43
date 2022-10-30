@@ -1,0 +1,11 @@
+.saveButton:hover {
+    background-image: linear-gradient(#26CADA,#337AB7);
+    color: white;    
+  
+  }
+.infoText{
+    background: linear-gradient(
+        to top, #26CADA,#337AB7);
+        -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
